@@ -33,7 +33,10 @@ try:
 except:
     print("error: file not valid please make sure you enter correct directory")
     sys.exit()
-    
+   
+
+print("bruteforcing please wait... it gonna take some time depends on password")
+
 for pws in file:
     encoword = pws.encode('utf-8')
     dig = hashlib.md5(encoword.strip()).hexdigest()
