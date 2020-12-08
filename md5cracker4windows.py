@@ -3,9 +3,10 @@ import sys
 import os
 haha = 0
 
-os.system('cls')
 
 sys.ps1 = '\033[91m'
+
+os.system('cls')
 
 print(sys.ps1)
 
