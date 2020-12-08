@@ -3,9 +3,9 @@ import sys
 import os
 haha = 0
 
-os.system('clear')
-
 sys.ps1 = '\033[91m'
+
+os.system('clear')
 
 print(sys.ps1)
 
