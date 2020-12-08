@@ -39,6 +39,11 @@ for pws in file:
     encoword = pws.encode('utf-8')
     dig = hashlib.md5(encoword.strip()).hexdigest()
     if (dig == phash):
+
+        print("")
+        print("")
+        print("")
+
         print(pws, " is the password")
         haha = 1
         break
